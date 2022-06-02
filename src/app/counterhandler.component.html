@@ -1,0 +1,17 @@
+<head>
+    <h1>
+      Counter
+    </h1>
+  </head>
+  
+  <body>
+    <div>
+      <h2>
+        {{count}} 
+      </h2>
+      <button [disabled]="strt" (click)="start()">Start</button>
+      <button [disabled]="stp" (click)="stop()">Stop</button>
+      <button [disabled]="show" (click)="display()">Show Time</button>
+      <button [disabled]="rst" (click)="reset()">Reset</button>
+    </div>
+  </body>
